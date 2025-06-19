@@ -1,0 +1,7 @@
+Create a local server on Windows
+Install nodejs, npm and check for presence via "node --version" & "npm --version"
+On the same path in cmd run:- "npm install -g npm"
+"npm install json-server" or "npm install -g json-server"
+Create a db.json file on the same path, add content from the website "https://www.npmjs.com/package/json-server"
+Now run "json-server -w db.json" in cmd.
+Copy the port populated on cmd to your browser.
